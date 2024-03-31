@@ -40,7 +40,7 @@ Author
 Jhon
 
 Website
-For more information, visit https://tiktoksaverpro.com
+For more information, visit https://tiktoksaverpro.com/ .
 
 Acknowledgements
 Quotes sourced from various inspirational figures.
