@@ -13,6 +13,8 @@ cd random-quote-generator
 
 3. Install the dependencies:
 
+Website
+For more information, visit https://tiktoksaverpro.com/ .
 npm install
 
 ## Usage
@@ -38,9 +40,6 @@ Contributions to the Random Quote Generator Module are welcome! If you have any 
 
 Author
 Jhon
-
-Website
-For more information, visit https://tiktoksaverpro.com/ .
 
 Acknowledgements
 Quotes sourced from various inspirational figures.
