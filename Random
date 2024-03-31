@@ -1,0 +1,33 @@
+// randomQuote.js
+
+// Predefined collection of quotes
+const quotes = [
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+    "Life is what happens when you're busy making other plans. - John Lennon",
+    "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+    "You miss 100% of the shots you don't take. - Wayne Gretzky",
+    "Believe you can and you're halfway there. - Theodore Roosevelt",
+    "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
+    "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
+    "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar",
+    "You can't blame gravity for falling in love. - Albert Einstein"
+];
+
+// Function to generate a random quote
+function getRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    return quotes[randomIndex];
+}
+
+// Export the function to make it accessible to other modules
+module.exports = { getRandomQuote };
+
+You can save this code in a file named randomQuote.js within your project directory.
+
+To use the module in your Node.js application, you can follow the example provided in the previous message:
+const { getRandomQuote } = require('./randomQuote');
+
+const randomQuote = getRandomQuote();
+console.log(randomQuote);
+This will output a random quote each time you run your Node.js application. Feel free to customize the quotes array with your own collection of quotes to suit your preferences!
